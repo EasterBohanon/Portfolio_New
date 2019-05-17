@@ -1,0 +1,65 @@
+/* main page CSS */
+  
+  body {
+     background: linear-gradient(230deg,#a24bcf,#4b79cf,#4bc5cf);
+    background-size: 800% 800%;
+    -moz-animation: EastPort 47s ease infinite;
+    animation: EastPort 47s ease infinite;
+}
+
+#WebDev {
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+    overflow: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center left, center right;
+    height: 100%;
+    /* margin-top: -13%; */
+    z-index: 50;
+    position: relative;
+}
+
+
+@-moz-keyframes EastPort {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes EastPort { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#navbarMain{
+    background-color: white;
+
+ 
+}
+#nav-mobile{
+       color: #0c2856;
+}
+#contact{
+    color: #0c2856;
+}
+#spanish{
+    color: #0c2856;
+}
+#portuguese{
+    color: #0c2856;
+}
+
+#name{
+    color: white;
+    text-align:center;
+}
+#buttons{
+    text-align:center;
+}
+#WebDev{
+    color: white;
+    text-align: center;
+}
+#aboutText{
+    background-color: white;
+}
